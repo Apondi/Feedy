@@ -7,7 +7,7 @@ import './screens/about.dart' as _aboutPage;
 import './screens/support.dart' as _supportPage;
 
 void main() => runApp(new MaterialApp(
-  title: 'Flutter Starter',
+  title: 'Feedy',
   theme: new ThemeData(
     primarySwatch: Colors.blueGrey,
     scaffoldBackgroundColor: Colors.white,
@@ -212,9 +212,9 @@ class TabsState extends State<Tabs> {
         this._title_app = TabItems[1].title;
       break;
 
-      case 2:
-        this._title_app = TabItems[2].title;
-      break;
+//      case 2:
+//        this._title_app = TabItems[2].title;
+//      break;
     }
   }
 }
@@ -226,7 +226,7 @@ class TabItem {
 }
 
 const List<TabItem> TabItems = const <TabItem>[
-  const TabItem(title: 'Home', icon: Icons.home),
-  const TabItem(title: 'Dashboard', icon: Icons.dashboard),
-  const TabItem(title: 'Settings', icon: Icons.settings)
+  const TabItem(title: 'Feedback', icon: Icons.home),
+  const TabItem(title: 'Services', icon: Icons.dashboard),
+//  const TabItem(title: 'Settings', icon: Icons.settings)
 ];
