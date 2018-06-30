@@ -7,7 +7,7 @@ import './screens/about.dart' as _aboutPage;
 import './screens/support.dart' as _supportPage;
 
 void main() => runApp(new MaterialApp(
-  title: 'Flutter Starter',
+  title: 'Feedy',
   theme: new ThemeData(
     primarySwatch: Colors.blueGrey,
     scaffoldBackgroundColor: Colors.white,
